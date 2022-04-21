@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    color: crimson;
+    text-align: center;
+    margin-top: 20px;
+}
+.app{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+img{
+    display: block;
+    cursor: pointer;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+.container .selected-img{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+.container .container-img{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 4px 0 0 0;
+}
+.container .container-img img{
+    width: 100px;
+    height: 100px;
+    margin: 5px 0;
+}
